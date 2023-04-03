@@ -3,6 +3,7 @@ import './index.css';
 import Footer from './components/Footer/Footer';
 import Home from './components/Home/Home';
 import Navbar from './components/Navbar/Navbar';
+import Services from './components/pages/Services';
 
 function App() {
   return (
@@ -13,7 +14,7 @@ function App() {
       {/* <Route path="/about" element={<About />} /> */}
       {/* <Route path="/contact" element={<Contact />} /> */}
       {/* <Route path="/blogs" element={<Blogs />} /> */}
-      {/* <Route path="/services" element={<Services />} /> */}
+      <Route path="/services" element={<Services />} />
     </Routes>
     <Footer />
   </>

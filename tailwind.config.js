@@ -11,22 +11,22 @@ module.exports = {
         title60: "60px"
       },
       height: {
-        headerHeight: "790px",
+        headerHeight: "810px",
         slide: '1200px'
       },
       colors: {
         delayedYellow: "#FCFE00",
-        springGreen: "#39FF14",
-        electricPurple: "#5501EE",
+        buttonColor: "#125AD3",
+        subTitle:"#fffff599",
+        bgNavbar:"#1c2636",
+        closeBtn:"#A6A6A6"
        
       },
       fontFamily: {
         maven: ['"Maven Pro"', ...defaultTheme.fontFamily.sans],
       },
-      maxWidth: {
-        extraLg: '1440px',
-        md: '968px',
-        form:'770px'
+      screens: {
+        phone:"390px"
       },
       backgroundImage: {
         backgroundHome:"url('/src/assets/imgs/accountingfullimage.jpg')",
