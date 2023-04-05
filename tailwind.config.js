@@ -19,7 +19,8 @@ module.exports = {
         buttonColor: "#125AD3",
         subTitle:"#fffff599",
         bgNavbar:"#1c2636",
-        closeBtn:"#A6A6A6"
+        closeBtn:"#A6A6A6",
+        secTitle:"#9298a4"
        
       },
       fontFamily: {
